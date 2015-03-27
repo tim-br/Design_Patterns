@@ -32,3 +32,8 @@ var myThirdCar = new function(){
 }
 
 console.log(myThirdCar.getInfo());
+
+// Each of the following options will create a new empty object:
+var newObject = {};
+var myNewObject = Object.create(null);
+var myOtherNewObject = new Object();
