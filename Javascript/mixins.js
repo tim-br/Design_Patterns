@@ -24,7 +24,7 @@ function augment(receivingClass, givingClass){
 
 
 var vehicle = new Car({model:'ford'});
-augment(Car, Mixin);
+augment(Car, Mixin); 
 //vehicle now inherit all attributes of Mixin
 //including functions and values
 
